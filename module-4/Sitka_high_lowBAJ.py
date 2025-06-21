@@ -1,3 +1,12 @@
+#Blaise A. Johnson
+#June 21, 2025
+#Assignment 4.2
+
+#the purpose of this assignment is retrevie the high or low temperatures 
+# depending on the users seclection.
+
+
+
 import csv
 from datetime import datetime
 
@@ -18,7 +27,7 @@ with open(filename) as f:
         highs.append(high)
         lows.append(low)
 
-    #Instructions 
+    #Instructions, loop and captures user's choice 
     while True: 
         print("Instructions: This graphs shows temperatures from high to low.")
         print("1. High Temps")
