@@ -1,3 +1,6 @@
+#Blaise A. Johnson 
+#The purpose of this program is to format city information and ensure it works correctly by testing it with unittest.
+
 def city_country(city, country, population=None, language=None   ):
     result = f"{city.title()}, {country.title()}"
     if population:
